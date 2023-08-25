@@ -63,7 +63,7 @@ margin-left: 30px;
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 390px) {
     .Wapper {
       text-align: center;
       padding: 0;
