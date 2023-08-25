@@ -1,0 +1,94 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Montserrat:wght@800&display=swap');
+
+
+/* Title */
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  letter-spacing: 4px;
+}
+
+.overlay {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index:2;
+  
+}
+
+.overlay h2 {
+  color: #FFA500;
+ font-family: 'Archivo', sans-serif;
+  padding: 10px;
+  margin: 0;
+  font-size: 2rem;
+  
+}
+
+.base {
+  font-size: 3rem;
+  position: relative;
+  z-index: 1;
+  font-family: 'Archivo', sans-serif;
+  color:  transparent;
+  -webkit-text-stroke: 0.1rem rgb(102, 102, 102);
+  
+}
+
+/* Title */
+
+
+.Container{
+    padding-top: 100px;
+   margin-top: 100px;
+   background: rgb(23, 23, 23);
+   padding-bottom: 100px;
+}
+
+.containerTeste {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.icon {
+    
+    background-color: #FFA500;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.listitens {
+  display: flex;
+  flex-direction: column;
+}
+
+.listitens h5 {
+  margin: 0;
+  color: #ffffff;
+}
+
+.listitens span {
+  color: #888;
+}

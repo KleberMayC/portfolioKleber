@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Montserrat:wght@800&display=swap');
+
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(23, 23, 23);
+    margin-bottom: 10rem;
+}
+.h1{
+display: flex;
+    color: aliceblue;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 10rem;
+    
+}
+
+.main img{
+    border-radius: 5px;
+}
+
+.right{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-content: center;
+}
+
+.social{
+    margin-top: 25px;
+}
+
+.h3{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.h1{
+    margin-bottom: 4rem;
+    margin-top: 10rem;
+    color: #FFA500;
+}
+
+.degrade{
+    background: linear-gradient(to right, #FF0000, #FFA500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.h2{
+    color: white;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.outroh3{
+    margin-bottom: 20px;
+
+}
+
+.paragrafo{
+    color: aliceblue;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    filter: invert(1);
+    padding: 10px;
+}
+
+.border img{
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+
+
+
+
+
+
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  letter-spacing: 4px;
+  margin-bottom: 100px;
+}
+
+.overlay {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index:2;
+}
+
+.overlay h2 {
+  color: #FFA500;
+ font-family: 'Archivo', sans-serif;
+  padding: 10px;
+  margin: 0;
+  font-size: 2rem;
+  
+}
+
+.base {
+  font-size: 3rem;
+  position: relative;
+  z-index: 1;
+  font-family: 'Archivo', sans-serif;
+  color:  transparent;
+  -webkit-text-stroke: 0.1rem rgb(102, 102, 102);
+}
+
+@media only screen and (max-width: 767px) {
+  .Container {
+    margin-bottom: 5rem;
+  }
+
+  .main {
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 5rem;
+    align-items: center;
+  }
+
+  .main img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+  }
+
+  .right {
+    text-align: center;
+  }
+
+  .h1 {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .h2 {
+    font-size: 24px;
+  }
+
+  .social{
+    width: 100%;
+    display: flex;
+  }
+  .social img{
+    width: 30%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .border img{
+    width: 50px;
+    padding: 0;
+    margin: 0;
+
+  }
+}

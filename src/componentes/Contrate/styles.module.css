@@ -1,0 +1,84 @@
+.Container{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  
+  
+  
+}
+
+.wrapper{
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background: rgb(23, 23, 23);
+  border-radius: 20px;
+  justify-content: space-between;
+}
+.h1{
+  margin-left: 80px;
+  
+}
+.h1 h1{
+  color: white;
+  font-size: 27px;
+}
+
+.h1 p {
+  color: #FFA500 ;
+
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+
+}
+
+ .a{
+  text-decoration: none;
+  list-style: none;
+  padding: 5px 20px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: white;
+  margin-right: 20px;
+  border: 2px solid;
+
+}
+
+
+.botoes .degrade{
+  color: transparent;
+  cursor: pointer;
+  
+ color: #FFA500;
+  background: linear-gradient(90deg, #FF0000 30%, #FFA500 100%) text;
+  border-image: linear-gradient(90deg, #FF0000 30%, #FFA500 100%) 4 / 1 / 0 stretch;
+  transition: all 0.4s ease-in-out 0s;
+
+  background: linear-gradient(to right, #FF0000, #FFA500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.botoes a{
+  border: 1px solid white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+color: white;
+}
+
+.lado{
+margin-left: 30px;
+}
