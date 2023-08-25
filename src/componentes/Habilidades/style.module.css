@@ -104,3 +104,29 @@
   color:  transparent;
   -webkit-text-stroke: 0.1rem rgb(102, 102, 102);
 }
+
+@media only screen and (max-width: 767px) {
+  .habilidades {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .border {
+    width: 120px;
+    height: 130px;
+  }
+
+  .h1 {
+    font-size: 24px;
+  }
+
+  .h3 {
+    font-size: 14px;
+  }
+
+  .border img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+}

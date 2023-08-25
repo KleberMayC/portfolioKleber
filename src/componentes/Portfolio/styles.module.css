@@ -102,3 +102,45 @@
   color:  transparent;
   -webkit-text-stroke: 0.1rem rgb(102, 102, 102);
 }
+
+@media only screen and (max-width: 767px) {
+  .portfolioContainer {
+    margin: 0 20px;
+  }
+
+  .project {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .container {
+    margin-top: 50px;
+  }
+
+  .overlay {
+    top: 50%;
+  }
+
+  .h1 {
+    margin-top: 100px;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .project h2 {
+    font-size: 20px;
+  }
+
+  .project p {
+    margin-bottom: 10px;
+  }
+
+  .project img {
+    border-radius: 5px;
+  }
+
+  .project p {
+    margin-top: 10px;
+  }
+}
