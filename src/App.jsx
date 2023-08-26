@@ -6,7 +6,7 @@ import Habilidades from "./componentes/Habilidades";
 import Home from "./componentes/Home";
 import Navbarteste from "./componentes/Navbarteste";
 import Portfolio from "./componentes/Portfolio";
-import Slider from "./componentes/Slider";
+// import Slider from "./componentes/Slider";
 import Sobre from "./componentes/Sobre";
 
 export default function App() {
@@ -15,7 +15,7 @@ export default function App() {
       <Navbarteste />
       {/* <Navbar /> */}
       <Home />
-      <Slider />
+      {/* <Slider /> */}
       <Sobre />
       <Habilidades />
       <Experiencia />

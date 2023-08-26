@@ -38,3 +38,18 @@
     -webkit-text-stroke: 0.1rem rgb(153, 153, 153);
     opacity: 0.8;
   }
+
+  @media only screen and (max-width: 767px) {
+    .slider-container {
+      margin-top: 150px;
+    }
+    
+    .slider-content {
+      font-size: 80px;
+      margin-right: 10rem;
+    }
+    
+    .slider-content p {
+      margin-right: 10rem;
+    }
+  }

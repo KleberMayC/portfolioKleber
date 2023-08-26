@@ -63,8 +63,8 @@ margin-left: 30px;
 }
 
 
-@media only screen and (max-width: 390px) {
-    .Wapper {
+@media only screen and (max-width: 768px) {
+    /* .Wapper {
       text-align: center;
       padding: 0;
       margin-top: 300px;
@@ -101,6 +101,28 @@ margin-left: 30px;
   
     .lado {
       margin-top: 10px;
+    } */
+
+    .Wapper{
+      display: block;
+      padding: 0px;
+      margin-top: 160px;
+    }
+
+    .flex h1{
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .flex p{
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .botoes{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 100px ;
     }
   }
 
