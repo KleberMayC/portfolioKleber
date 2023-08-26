@@ -92,3 +92,18 @@
 .listitens span {
   color: #888;
 }
+
+
+@media only screen and (max-width: 768px){
+  .Container{
+    margin: 0;
+  }
+
+  .containerTeste{
+    margin-left: 0;
+  }
+
+  .listitens{
+    font-size: 13px;
+  }
+}

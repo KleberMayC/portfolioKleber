@@ -39,16 +39,13 @@
     transform: scale(1.2);
   }
   
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px){
     .habilidades {
       gap: 20px;
       justify-content: flex-start; /* Alinhar os itens à esquerda */
     }
   
-    .border {
-      width: 120px;
-      height: 130px;
-    }
+
   
     .h1 {
       font-size: 24px; /* Reduzir o tamanho da fonte do título */
@@ -61,6 +58,10 @@
     .border img {
       max-width: 80px; /* Reduzir o tamanho das imagens */
       max-height: 80px;
+    }
+
+    .container h2{
+      font-size: 40px;
     }
   }
 
@@ -113,8 +114,8 @@
   }
 
   .border {
-    width: 120px;
-    height: 130px;
+    
+    height: 170px;
   }
 
   .h1 {

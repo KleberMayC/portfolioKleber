@@ -68,7 +68,7 @@ display: flex;
 }
 
 .paragrafo{
-    color: aliceblue;
+  color: rgb(196, 196, 196);
     font-size: 17px;
     letter-spacing: 1px;
 }
@@ -164,16 +164,21 @@ display: flex;
     width: 100%;
     display: flex;
   }
-  .social img{
-    width: 30%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  .border img{
-    width: 50px;
-    padding: 0;
-    margin: 0;
 
+  .main img{
+    display: none;
   }
+
+  .overlay h2{
+    text-align: center;
+    padding: 0px;
+    font-size: 30px;
+    width: 300px;
+  }
+  .paragrafo{
+    padding: 10px;
+    font-size: 15px;
+    
+  }
+
 }
