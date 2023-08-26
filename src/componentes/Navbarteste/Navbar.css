@@ -7,10 +7,12 @@
     color: #fff;
     padding-bottom: 0px;
     transition: background-color 0.3s ease;
+    z-index: 999;
   }
   
   .navbar.scrolled {
     background-color: #252525;
   }
+
 
   
