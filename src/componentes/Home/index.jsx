@@ -2,7 +2,7 @@ import style from "../Home/style.module.css";
 
 export default function Home() {
   return (
-    <section className={style.Wapper}>
+    <section id="home" className={style.Wapper}>
       <div className={style.flex}>
         <h1 className={style.principal}>
           Ajudando empresas, criando <br />

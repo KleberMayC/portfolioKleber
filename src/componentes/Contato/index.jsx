@@ -4,7 +4,7 @@ import email from "../../assets/social/email.png"
 import linkedin from '../../assets/social/linkedin.png'
 export default function Contato() {
   return (
-    <div className={styles.Container}>
+    <div id="contato" className={styles.Container}>
       <div className={styles.container}>
         <div className={styles.overlay}>
           <h2>CONTATOS</h2>

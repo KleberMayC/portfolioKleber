@@ -9,7 +9,7 @@ import foto from "../../assets/social/fundo.png";
 
 export default function Sobre() {
   return (
-    <div className={style.Container}>
+    <div id="sobre" className={style.Container}>
       <div className={style.container}>
         <div className={style.overlay}>
           <h2>SOBRE MIM</h2>

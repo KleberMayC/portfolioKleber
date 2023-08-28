@@ -1,6 +1,8 @@
 import { useState } from "react";
+
+
 import style from "./style.module.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +18,10 @@ export default function Navbar() {
         <p className={style.paragrafo}>Desenvolvedor Full-Stack</p>
       </div>
 
-      <div className={`${style.menuIcon} ${isOpen ? style.open : ""}`} onClick={toggleMenu}>
+      <div
+        className={`${style.menuIcon} ${isOpen ? style.open : ""}`}
+        onClick={toggleMenu}
+      >
         <span></span>
         <span></span>
         <span></span>

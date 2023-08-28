@@ -23,7 +23,7 @@ export default function Habilidades() {
   };
 
   return (
-    <div className={style.Container}>
+    <div id="habilidade" className={style.Container}>
       <div className={style.container}>
         <div className={style.overlay}>
           <h2>HABILIDADES</h2>
