@@ -7,7 +7,7 @@ import andamento from "../../assets/projetos/andamento.png";
 
 const Portfolio = () => {
   return (
-    <div className={styles.portfolioContainer}>
+    <div id="portfolio" className={styles.portfolioContainer}>
       <div className={styles.container}>
         <div className={styles.overlay}>
           <h2>PORTFÓLIO</h2>

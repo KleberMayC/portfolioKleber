@@ -17,7 +17,7 @@ export default function Home() {
 
       <div className={style.botoes}>
         <a className={style.degrade} href="">Download CV</a>
-        <a className={style.lado} href="">
+        <a className={style.lado} target="blank_" href="https://wa.me//5548998332575?text=Ol%C3%A1%20gostaria%20de%20tirar%20uma%20d%C3%BAvida">
           Mais
         </a>
         

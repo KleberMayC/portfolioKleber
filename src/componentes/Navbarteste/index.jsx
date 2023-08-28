@@ -25,9 +25,9 @@ const Navbar = () => {
   }, [scrolled]);
 
   return (
-    <header className={`navbar ${scrolled ? "scrolled" : ""}`}>
+    <header  className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <nav className={style.Container}>
-        <div>
+        <div >
           <h2>Kleber Coelho</h2>
           <p className={style.paragrafo}>Desenvolvedor Full-Stack</p>
         </div>
@@ -43,9 +43,12 @@ const Navbar = () => {
             <Link to="habilidade" smooth={true} duration={500}>
               <a href="">Habilidades</a>
             </Link>
-
-            <a href="">Portfolio</a>
-            <a href="">Contatos</a>
+            <Link to="portfolio" smooth={true} duration={500}>
+              <a href="">Portfolio</a>
+            </Link>
+            <Link to="contato" smooth={true} duration={500}>
+              <a href="">Contato</a>
+            </Link>
           </li>
         </ul>
       </nav>

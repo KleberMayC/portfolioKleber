@@ -109,25 +109,36 @@ margin-left: 30px;
   }
 
   .botoes {
-    flex-direction: column;
+    display: flex;
+    
     align-items: center;
+    gap: 20px;
+    
   }
 
   .botoes a {
     margin-top: 10px;
-    margin-right: 0;
+    margin-right: 10;
+    
   }
 
   .lado {
     margin-left: 0;
   }
 
-  .botoes .degrade {
-    background: #FFA500;
-    color: white;
-    border-image: none;
-    transition: none;
-    -webkit-background-clip: initial;
-    -webkit-text-fill-color: initial;
+  
+    .botoes .degrade{
+      color: transparent;
+      cursor: pointer;
+      
+     color: #FFA500;
+      background: linear-gradient(90deg, #FF0000 30%, #FFA500 100%) text;
+      border-image: linear-gradient(90deg, #FF0000 30%, #FFA500 100%) 4 / 1 / 0 stretch;
+      transition: all 0.4s ease-in-out 0s;
+  
+      background: linear-gradient(to right, #FF0000, #FFA500);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
   }
+  
 }
